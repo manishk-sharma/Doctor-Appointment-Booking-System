@@ -1,5 +1,5 @@
 <?php
-include_once('../backend/include/config.php');
+include_once(__DIR__ . '/../backend/include/config.php');
 if(isset($_POST['submit']))
 {
 $name=$_POST['fullname'];
