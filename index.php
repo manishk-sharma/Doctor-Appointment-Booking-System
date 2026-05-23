@@ -1,3 +1,3 @@
 <?php
-header('Location: /mediq/frontend/');
+header('Location: /MEDIQ/frontend/');
 exit;
