@@ -1,7 +1,7 @@
 <?php
 // Simple sitemap generator for this project.
 // Set environment variable BASE_URL (e.g. https://example.com) or edit $base below.
-$base = getenv('BASE_URL') ?: 'https://example.com';
+$base = getenv('BASE_URL') ?: 'http://localhost/MEDIQ';
 
 $excludeDirs = [
     'backend', 'vendor', 'master', 'node_modules', '.git', 'assets', 'include'

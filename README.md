@@ -52,3 +52,20 @@ Provided for educational purposes. Review repository license if present.
 ---
 
 ### 💡 Developed by Manish Sharma
+
+---
+
+## 🔎 Sitemap & robots
+
+- **Generator:** `sitemap.php` at the project root generates `sitemap.xml` by scanning PHP pages. The default `BASE_URL` in `sitemap.php` is `http://localhost/MEDIQ` (can be overridden with the `BASE_URL` environment variable).
+
+- **Regenerate:** run from the project root:
+```bash
+php sitemap.php
+```
+This will output XML and write/overwrite `sitemap.xml` in the project root.
+
+- **Robots:** `robots.txt` at the project root points to the sitemap (`http://localhost/MEDIQ/sitemap.xml`). Update this value before deploying to production.
+
+- **Customize:** Edit the `$excludeDirs` and `$skipFiles` arrays in `sitemap.php` to change which files or directories are included in the sitemap.
+
