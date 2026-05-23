@@ -1,85 +1,54 @@
-# 🏥 Doctor Appointment Booking System
+# 🏥 MEDIQ — Doctor Appointment Booking System
 
-A web-based application designed to simplify and manage doctor appointments for hospitals and clinics. This system provides a seamless experience for patients, doctors, and administrators through an intuitive PHP and MySQL-powered interface.
+A PHP & MySQL web application for managing doctor appointments (patients, doctors, and admins).
 
 ## 🔧 Technology Stack
 
-- **Frontend**: HTML, CSS, JavaScript, Bootstrap  
-- **Backend**: PHP  
-- **Database**: MySQL  
-- **Hosting Environment**: XAMPP Control Panel (Apache + MySQL)
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap
+- **Backend**: PHP
+- **Database**: MySQL
+- **Development**: XAMPP (Apache + MySQL)
 
 ## 🚀 Features
 
-### 👨‍⚕️ Patients
-- Register and log in
-- View doctors and their available schedules
-- Book and cancel appointments
-
-### 🩺 Doctors
-- Secure login and personalized dashboard
-- View and manage patient appointments
-- Update availability and schedules
-
-### 🛠️ Admins
-- Manage doctors and patient accounts
-- Monitor appointment data
-- Oversee the entire system
+- Patient registration, login, and profile management
+- Browse doctors and available slots; book/cancel appointments
+- Doctor dashboard to manage appointments and patient records
+- Admin panel to manage users, doctors, and appointments
 
 ## 💻 Installation & Setup (XAMPP)
 
-1. **Install [XAMPP](https://www.apachefriends.org/index.html)** and launch Apache & MySQL.
-2. **Extract the Project**  
-   Place the `dabs` folder into `C:\xampp\htdocs\` or your XAMPP `htdocs` directory.
-3. **Import the Database**
-   - Open [phpMyAdmin](http://localhost/phpmyadmin)
-   - Create a new database named `dabs`
-   - Import the SQL file: `dabs/database/dabs.sql`
-4. **Run the Application**  
-   Open a browser and visit: [http://localhost/dabs](http://localhost/dabs)
+1. Install [XAMPP](https://www.apachefriends.org/index.html) and start Apache & MySQL.
+2. Copy the project folder to your XAMPP `htdocs` directory (for example `C:\xampp\htdocs\MEDIQ`).
+3. Import the database:
+   - Open phpMyAdmin at http://localhost/phpmyadmin
+   - Create a new database (e.g. `mediq`)
+   - Import the SQL file `mediq.sql` located at the project root
+4. Configure database connection if needed:
+   - Edit [include/config.php](include/config.php) to set your DB credentials (host, username, password, database)
+5. Run the app in your browser:
+   - Primary: http://localhost/MEDIQ
+   - If using the `frontend` folder: http://localhost/MEDIQ/frontend
 
-## 📁 Project Structure
+## 📁 Project Structure (workspace snapshot)
 
-dabs/
-├── admin/ # Admin dashboard and management tools
-│ ├── dashboard.php
-│ ├── manage_doctors.php
-│ └── manage_users.php
-│
-├── doctor/ # Doctor interface
-│ ├── dashboard.php
-│ ├── appointments.php
-│ └── schedule.php
-│
-├── patient/ # Patient interface
-│ ├── dashboard.php
-│ ├── book.php
-│ └── history.php
-│
-├── includes/ # Config and utility PHP files
-│ ├── db.php
-│ └── auth.php
-│
-├── css/ # Custom stylesheets
-│ └── style.css
-│
-├── js/ # JavaScript files
-│ └── main.js
-│
-├── database/ # SQL dump
-│ └── dabs.sql
-│
-└── index.php # Entry point (login/homepage)
+- `index.php` — main entry (root)
+- `mediq.sql` — database dump
+- `backend/` — backend endpoints and pages
+- `admin/` — admin area and tools
+- `doctor/` — doctor-facing UI and pages
+- `frontend/` — public frontend pages
+- `include/` — shared headers, config, and helpers
+- `assets/`, `vendor/` — static assets and third-party libraries
 
 ## 🙌 Contribution
 
-Have suggestions or want to improve the system?  
-Fork the project, create a feature branch, commit your changes, and open a pull request!
+Suggestions and improvements are welcome — fork the repo, create a branch, and open a pull request.
 
 ## 📄 License
 
-This project is provided for educational purposes only.
+Provided for educational purposes. Review repository license if present.
 
 ---
 
-### 💡 Developed by **Manish Sharma**
+### 💡 Developed by Manish Sharma
