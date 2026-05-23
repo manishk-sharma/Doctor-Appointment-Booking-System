@@ -82,4 +82,4 @@ This project is provided for educational purposes only.
 
 ---
 
-### 💡 Developed by **Manish Kumar**
+### 💡 Developed by **Manish Sharma**
