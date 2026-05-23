@@ -1,4 +1,4 @@
-# 🏥 MEDIQ — Doctor Appointment Booking System
+# 🏥 MEDIQ
 
 A PHP & MySQL web application for managing doctor appointments (patients, doctors, and admins).
 

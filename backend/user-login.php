@@ -96,7 +96,7 @@ echo "<script>window.location.href='user-login.php'</script>";
 					</form>
 
 					<div class="copyright">
-						</span><span class="text-bold text-uppercase"> Doctor Appointment Booking System</span>.
+						</span><span class="text-bold text-uppercase"> MEDIQ</span>.
 					</div>
 			
 				</div>

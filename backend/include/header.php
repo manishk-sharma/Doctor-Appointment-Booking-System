@@ -25,7 +25,7 @@
 						<ul class="nav navbar-right">
 							<!-- start: MESSAGES DROPDOWN -->
 								<li  style="padding-top:2% ">
-								<h2>Doctor Appointment Booking System</h2>
+								<h2>MEDIQ</h2>
 							</li>
 						
 						

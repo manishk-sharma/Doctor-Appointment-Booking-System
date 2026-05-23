@@ -85,7 +85,7 @@ $_SESSION['errmsg']="Invalid username or password";
 					</form>
 
 					<div class="copyright">
-						<span class="text-bold text-uppercase">Doctor Appointment Booking System</span>
+						<span class="text-bold text-uppercase">MEDIQ</span>
 					</div>
 			
 				</div>

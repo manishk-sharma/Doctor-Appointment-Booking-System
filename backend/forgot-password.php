@@ -87,7 +87,7 @@ echo "<script>window.location.href ='forgot-password.php'</script>";
 					</form>
 
 					<div class="copyright">
-						&copy; <span class="text-bold text-uppercase">Doctor Appointment Booking System</span>
+						&copy; <span class="text-bold text-uppercase">MEDIQ</span>
 					</div>
 			
 				</div>

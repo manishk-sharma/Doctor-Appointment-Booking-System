@@ -93,7 +93,7 @@ echo "<script>window.location.href='index.php'</script>";
 					</form>
 
 					<div class="copyright">
-					<span class="text-bold text-uppercase">Doctor Appointment Booking System</span>
+					<span class="text-bold text-uppercase">MEDIQ</span>
 					</div>
 			
 				</div>
