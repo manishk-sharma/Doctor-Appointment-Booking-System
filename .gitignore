@@ -1,0 +1,22 @@
+# PHP
+.phpunit.result.cache
+/.vscode
+.env
+.env.local
+.env.*.local
+phpunit.xml
+composer.lock
+
+# Dependencies
+/node_modules/
+/vendor/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# XAMPP
+/tmp
